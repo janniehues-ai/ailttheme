@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='themes/kittheme/css/kit.css') }}">
+
+
+<div layout="row" class="top-row layout-row">
+        <!---->
+        <div flex="" class="top-links flex">
+            <a href="{{ url_for('index') }}">HOME</a>
+            <a href="{{ url_for('contact') }}">CONTACT</a>
+            <a href="{{ url_for('legals') }}">LEGALS</a>
+            <a href="http://www.kit.edu">KIT</a>
+        </div>
+    </div>
+<header>
+    <a href="{{ url_for('index') }}"><h1>KIT lecture translator</h1></a>
+    {% set filename = 'themes/' ~ theme ~ '/img/logo.png' %}
+    <a href="http://www.kit.edu"><img src="{{ url_for('static', filename=filename) }}" class="KITlogo" alt="logo"></a>
+</header>
+
+
