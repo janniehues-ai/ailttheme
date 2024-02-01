@@ -10,7 +10,8 @@
   </head>
   <body>
 
-      {% include 'header.html' %}
+{% set header = 'themes/' ~ theme ~ '/html/header.html' %}
+{% include header %}
 
   <h1> Terms of Service </h1>
 
