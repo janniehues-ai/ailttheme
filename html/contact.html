@@ -27,7 +27,8 @@
     </style>
   </head>
   <body>
-    {% include 'header.html' %}
+{% set header = 'themes/' ~ theme ~ '/html/header.html' %}
+{% include header %}
     <h1>Contact</h1>
     <table>
       <tr class="grey-row">
