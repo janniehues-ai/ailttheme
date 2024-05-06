@@ -1,5 +1,6 @@
 :root {
     --main-color: rgba(0,150,130, 1);
+    --sub-color: rgba(0,150,130, 0.1);
 }
 .top-row {
   position: relative;
