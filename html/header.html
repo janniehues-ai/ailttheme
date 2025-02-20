@@ -8,11 +8,17 @@
             <a href="{{ url_for('contact') }}">CONTACT</a>
             <a href="{{ url_for('legals') }}">LEGALS</a>
             <a href="{{ url_for('terms') }}">TERMS OF SERVICE</a>
+            <a href="{{ url_for('about') }}">ABOUT</a>
         </div>
         </div>
     </div>
 <header>
     <a href="{{ url_for('index') }}"><h1>KIT lecture translator</h1></a>
+    <div style="height: 10vh; display: table; width: 35%;">
+      <div style="display: table-cell; vertical-align: middle; text-align: center;">
+        <a href="{{ url_for('index') }}"><h3>Breaking down language and comprehension barriers – ease and speed up work and learning with the lecture translator</h3></a>
+      </div>
+    </div>
     {% set filename = 'themes/' ~ theme ~ '/img/logo.png' %}
     <a href="http://www.kit.edu"><img src="{{ url_for('static', filename=filename) }}" class="KITlogo" alt="logo"></a>
 </header>
