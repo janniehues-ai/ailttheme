@@ -7,7 +7,7 @@
 .top-row {
   position: relative;
   z-index: 4;
-  height: 25px;
+  height: 2rem;
 }
 
 .layout-row {
@@ -18,8 +18,8 @@
 .top-links {
   float: right;
   text-align: right;
-  font-size: 0.9091em;
-  line-height: 2.5455em;
+  font-size: 0.9091rem;
+  line-height: 2.5455rem;
   padding-right: 19px;
 }
 
